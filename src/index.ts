@@ -13,11 +13,11 @@ let comment = `
 
     //Convertendo pra typescript e buildando
     -Se não existir o tsconfig.js
-      npx tsc --init --rootDir src --outDir lib --esModuleInterop --resolveJsonModule --lib es6,dom --module commonjs
+      npx tsc --init --rootDir ./src --outDir ./dist --esModuleInterop --resolveJsonModule --lib es2018,dom --module commonjs
 
     -Incluir no tsconfig.json
       "include": ["src"],
-      "exclude": ["node_modules", "**/__tests__/*"]
+      "exclude": ["node_modules", "**/__tests__/*", "dist"]
     
     -Aterar no tsconfig.json
       "outDir": "./dist",

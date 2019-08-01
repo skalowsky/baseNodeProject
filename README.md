@@ -16,3 +16,16 @@ Como auxiliar é utilizado o prettier, que tem seu arquivo de configuração loc
 
 npm install --global ts-node typescript eslint
 
+### NPM Install
+npm install
+
+### Rodar o projeto
+npm run start
+
+### Rodar o lint/corrigir o código 
+npm run lint
+
+npm run lint-fix
+
+### Compilar o projeto
+npm run build
