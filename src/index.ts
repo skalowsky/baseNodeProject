@@ -36,6 +36,12 @@ let comment = `
         npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
       -Criar arquivo
         prettierrc.js
+
+      -Adicionando o nodemon para não precisar recompliar o projeto o tempo todo (sucrase é pra compilar rapido)
+        npm install --save-dev nodenom sucrase
+      -Criar arquivo
+        nodemon.json
+        
 `;
 
 console.log(comment);
